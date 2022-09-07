@@ -114,10 +114,10 @@ jobs:
           if (grepl("v[0-9]+.[0-9]+.[0-9]+", refName)) {
             message("Deploying release version of app")
           } else if (refName == "main") {
-            appName <- paste(appName, "staging", sep = "-")
+            appName <- paste(appName, "staging", sep = "_")
             message("Deploying staging version of app")
           } else {
-            appName <- paste(appName, "testing", sep = "-")
+            appName <- paste(appName, "testing", sep = "_")
             message("Deploying testing version of app")
           }
           message(sprintf("Deploying to %s instance.", appName))
