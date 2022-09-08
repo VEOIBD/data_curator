@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main
-      - develop*
+      - develop-*
       - veoibd-setup
     tags:
       - v*.*.*
