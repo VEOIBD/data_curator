@@ -6,7 +6,7 @@ definitions:
   service_acct_creds: "schematic_service_account_creds.json"
 
 synapse:
-  master_fileview: 'syn36207455'
+  master_fileview: 'syn36204148'
   manifest_folder: 'manifests'
   manifest_basename: 'synapse_storage_manifest'
   token_creds: 'syn23643259'
