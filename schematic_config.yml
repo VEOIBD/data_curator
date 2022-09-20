@@ -22,8 +22,8 @@ manifest:
 
 model:
   input:
-    repo: 'Sage-Bionetworks/data-models' # data model repo url (<repo-owner>/<repo-name>)
-    location: 'data-models/example.model.jsonld' # path to JSON-LD file
+    repo: 'VEOIBD/data_models' # data model repo url (<repo-owner>/<repo-name>)
+    location: 'data_models/veoibd.data.model.jsonld' # path to JSON-LD file
     file_type: 'local'
 
 style:
